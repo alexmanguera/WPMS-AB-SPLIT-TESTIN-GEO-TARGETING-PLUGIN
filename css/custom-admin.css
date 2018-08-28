@@ -1,0 +1,131 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+.canvasjs-chart-credit {
+	display: none;
+}
+
+a.delete {
+	color: #a00 !important;
+}
+
+.expstatus_complete {
+	color: #00FF00 !important;
+}
+
+.expstatus_running {
+	color: #0000FF !important;
+}
+
+.expstatus_paused {
+	color: #FF0000 !important;
+}
+
+input.regular-text {
+    width: 25em;
+}
+
+textarea.regular-text{
+	width: 25em;
+	height: 60px;
+}
+
+.wpms-ab-label{
+	float: left;
+	padding: 0 10px;
+	width: 200px;
+	text-align: left;
+}
+
+.ui-tabs.ui-tabs-vertical {
+    padding: 0;
+    width: 100%;
+}
+.ui-tabs.ui-tabs-vertical .ui-widget-header {
+    border: none;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav {
+    float: left;
+    width: 10em;
+    background: #CCC;
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid gray;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li {
+    clear: left;
+    width: 100%;
+    margin: 0.2em 0;
+    border: 1px solid gray;
+    border-width: 1px 0 1px 1px;
+    border-radius: 4px 0 0 4px;
+    overflow: hidden;
+    position: relative;
+    right: -2px;
+    z-index: 2;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a {
+    display: block;
+    width: 100%;
+    padding: 0.6em 1em;
+	font-size: 10.5px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover {
+    cursor: pointer;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: 0.2em;
+    padding-bottom: 0;
+    border-right: 1px solid white;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li:last-child {
+    margin-bottom: 10px;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-panel {
+    float: left;
+    width: 80%;
+    border-left: 1px solid gray;
+    border-radius: 0;
+    position: relative;
+    left: -1px;
+}
+
+ul.wpms-how-to-list {
+	list-style-type: square;
+	margin-left: 20px;
+}
+
+.wpms-ab-tabs-content {
+	padding: 15px;
+}
+/* ----------------------- */
+.wpms-main-cat {
+	padding: 12px;
+	margin: 12px;
+	background-color: #ffffff;
+}
+/* ----------------------- */
+
+
+/* ----------------------- */
+/* Geolocate */
+#underlay{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	-moz-opacity:0.5;
+	opacity:.50;
+	filter:alpha(opacity=50);
+}
+#lightbox{
+	display:none;
+	position:absolute;
+	top:100px;
+	left:25%;
+	width:50%;
+	height:400px;
+	background-color:#fff;
+}
+/* ----------------------- */
